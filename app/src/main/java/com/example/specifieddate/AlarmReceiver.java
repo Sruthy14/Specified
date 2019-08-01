@@ -26,7 +26,7 @@ public class AlarmReceiver extends BroadcastReceiver{
         SmsManager sms=SmsManager.getDefault();
         sms.sendTextMessage(no, null, msg, pi,null);
 
-        Toast.makeText(context, "Message Sent successfully!",
+        Toast.makeText(context, "Message jjjjjjjkjj!",
                 Toast.LENGTH_LONG).show();
 
 
